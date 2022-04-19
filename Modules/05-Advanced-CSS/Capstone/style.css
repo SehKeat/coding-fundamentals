@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #121212;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.right-nav, .phonecontact, .emailcontact {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+
+li {
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: 700;
+}
+
+button {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:700;
+	padding:6px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+    margin-right: 25px;
+}
+button:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.myimage {
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+}
+.intro {
+    color: #eee;
+    font-weight: 700;
+    max-width: 700px;
+}
+
+.contactcard {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
+.contact-left   {
+    margin: 0 20px;
+    width: 300px;
+}
+
+.contact-logo {
+    margin-right: 20px;
+}
+
+.contact-right {
+    width: 400px;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    box-shadow: 0 0 28px rgb(0 0 0 / 12%);
+    border: 1px solid #414141;
+    padding: 16px;
+    color: #eee;
+}
+.optional {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    font-weight: 700;
+}
+
+.optional-accent {
+    font-weight: 300;
+}
+
+input {
+    width: 395px;
+    margin-bottom: 15px;
+    background-color: hsla(0,0%,91%,0.05);
+}
+
+textarea{
+    width: 395px;
+    background-color: hsla(0,0%,91%,0.05);
+}
