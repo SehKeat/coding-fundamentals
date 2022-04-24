@@ -190,3 +190,8 @@ button:hover {
     margin-top: 0;
 }
 
+@media (max-width: 639px) {
+    .about-me, .work, .contactcard{
+        display: block;
+    }
+}
